@@ -3,37 +3,32 @@
 
 **Building a data pipeline to analyze the impact of holidays on Walmart’s sales.**
 
-Overview
+**Overview**
 
 This project focuses on automating data processing and analysis of Walmart’s grocery sales by combining transactional and external factors like holidays, fuel prices, and economic indicators.
 
-Tech Stack
+**Tech Stack**
+
 Python (Pandas)
 
 PostgreSQL
 
 Parquet & CSV processing
 
-Workflow
+**Workflow**
 
 Extract data from PostgreSQL and Parquet files
-
 Merge and clean datasets
-
 Transform data into analysis-ready format
-
 Perform monthly sales aggregation
 
-Outcomes
+**Outcomes**
 
 Identified sales trends across months
-
 Analyzed the impact of holidays on demand
-
 Generated clean datasets for further analytics
 
-Outputs
+**Outputs**
 
 clean_data.csv → Processed dataset
-
 agg_data.csv → Monthly sales summary
